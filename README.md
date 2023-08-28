@@ -25,6 +25,11 @@ $ terraform plan -out planfile
 $ terraform apply
 ```
 
+## The code
+* All infrastructure is in `/infra`
+* Lambda code is in `/src` and zips on terraform apply
+* Test data that can be added to the Lambda for testing is in `/test-data`
+
 ## Up next
 * Refactoring the Terraform (policies/modules)
 * Create logic to create playlists and ToC for new show
