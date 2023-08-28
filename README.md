@@ -4,7 +4,7 @@ An S3 Bucket with Event Bus to organise incoming media files from a CDN.
 
 This follows the following design:
 
-#![LucidChart Screen Shot](design/diagram.png "Design")
+![LucidChart Screen Shot](design/diagram.png "Design")
 
 
 ## How to use
