@@ -240,4 +240,3 @@ resource "aws_s3_bucket_notification" "bucket-notification" {
 
   depends_on = [aws_sqs_queue.s3_lambda_queue]
 }
-
