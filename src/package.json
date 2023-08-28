@@ -1,0 +1,15 @@
+{
+  "type":"commonjs",
+  "name": "playlist-formatter",
+  "version": "1.0.0",
+  "description": "generate ToC and playlist for MPEG fragments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AmyJoT",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.400.0"
+  }
+}
